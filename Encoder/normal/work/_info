@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HARSHA/Desktop/Dlithe VLSI/Encoder/normal
+T_opt
+!s110 1754543127
+VnAhH>?3U]jYGW^je384zD2
+04 10 4 work encoder_tb fast 0
+=1-0045e266267b-68943417-274-2a44
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vencoder4_2
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1754543125
+!i10b 1
+!s100 zaMINg@JeI]0kO?clU=5[2
+ITBjZ^4HdAI``>AVDBBOnQ3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 _4to2_sv_unit
+S1
+R0
+Z6 w1754542146
+Z7 84to2.sv
+Z8 F4to2.sv
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1754543125.000000
+Z11 !s107 4to2.sv|
+Z12 !s90 -reportprogress|300|4to2.sv|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vencoder_tb
+R2
+R3
+!i10b 1
+!s100 Dl^gYmD8N;M0k@X:S`2RM1
+IGJ_EGbGI;efcFSTehcSDz3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

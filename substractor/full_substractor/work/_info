@@ -1,0 +1,68 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HARSHA/Desktop/Dlithe VLSI/substractor/full_substractor
+T_opt
+!s110 1754562601
+VF[Gh:W1P6oU6SS:f?AQb32
+04 2 4 work tb fast 0
+=1-0045e266267b-68948029-63-c6c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vmain
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1754564235
+!i10b 1
+!s100 :7:8OTCQm;NIO=]mMonG42
+I<8RI@kdUjdCLHUE7l`3FA3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 main_sv_unit
+S1
+R0
+Z6 w1754562388
+Z7 8main.sv
+Z8 Fmain.sv
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1754564235.000000
+!s107 main.sv|
+Z11 !s90 -reportprogress|300|main.sv|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 QkHiQ5U<IhT^R^YLBQYYW2
+Ii0naSD>A^7l]l@Td`gPf?3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 7
+R9
+r1
+!s85 0
+31
+R10
+Z13 !s107 main.sv|
+R11
+!i113 0
+R12
+R1
