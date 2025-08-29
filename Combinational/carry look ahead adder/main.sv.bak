@@ -1,0 +1,48 @@
+module main(input [3:0]a,b, input cin, output reg [3:0]sum, output reg carry);
+    reg [3:0]p,g;
+    reg [2:0]c;
+    always_comb begin
+
+    p = a ^ b;
+    g = a & b;
+
+    c[0] = g[0] | (p[0] & cin);
+    c[1] = g[1] | (p[1] & g[0] | p[1] & p[0] & cin);
+    c[2] = g[2] | (p[2] & g[1] |p[2] & p[1] & g[0] | p[2] & p[1] & p[0] & cin);
+    carry = g[3] | (p[3] & g[2] | p[3] & p[2] & g[1] | p[3] & p[2] & p[1] & g[0] | p[3] & p[2] & p[1] & p[0] & cin);
+
+    sum[0] = p[0] ^ cin;
+    sum[1] = p[1] ^ c[0];
+    sum[2] = p[2] ^ c[1];
+    sum[3] = p[3] ^ c[2];
+    end
+
+endmodule
+
+
+
+module tb();
+    reg [3:0]a,b;
+    reg cin;
+    wire [3:0]sum;
+    wire carry;
+
+    main uut(a,b,cin,sum,carry);
+
+    initial begin
+        $monitor("time=%0t, a=%b, b=%b, sum=%b, carry=%b",$time,a,b,sum,carry);
+        a=0; b=0; cin=0;
+        #256 $stop;
+    end
+
+        always #1 b=b+1;
+        always #16 a=a+1;
+
+endmodule
+
+
+
+
+
+
+

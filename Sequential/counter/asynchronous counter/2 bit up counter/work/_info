@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HARSHA/Desktop/Dlithe VLSI/DLITHE_VLSI/Sequential/counter/asynchronous counter/2 bit up counter
+T_opt
+!s110 1754994104
+VzPW^ZB8;ooY9ALFE=Zlo@0
+04 2 4 work tb fast 0
+=1-0045e266267b-689b15b7-3c9-2ef0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vmain
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1754994103
+!i10b 1
+!s100 NH0XK^:LOL9l<;ikj9WAc2
+Ig15lKRk8dJ6iCP<l:bM>L3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 main_sv_unit
+S1
+R0
+Z6 w1754994087
+Z7 8main.sv
+Z8 Fmain.sv
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1754994103.000000
+Z11 !s107 main.sv|
+Z12 !s90 -reportprogress|300|main.sv|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 ki3e8B:dN4E@^OdZiT24A1
+IXCNEDz`E?P06nCS^Af=^D0
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 20
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

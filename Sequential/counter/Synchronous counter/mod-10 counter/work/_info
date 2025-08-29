@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/HARSHA/Desktop/Dlithe VLSI/DLITHE_VLSI/Sequential/counter/Synchronous counter/mod-10 counter
+T_opt
+!s110 1755081287
+V8O?Hd<];P@Ho=;XPfd0mS3
+04 2 4 work tb fast 0
+=1-0045e266267b-689c6a47-de-48c4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vmain
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1755081286
+!i10b 1
+!s100 F:ECTl3bS@nLh=<ENjETR3
+IFI4]iWakD`O[1L2OEG;132
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 main_sv_unit
+S1
+R0
+Z6 w1755081222
+Z7 8main.sv
+Z8 Fmain.sv
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1755081286.000000
+Z11 !s107 main.sv|
+Z12 !s90 -reportprogress|300|main.sv|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 Xm:T1Z9H@10flCK<2PIHl1
+ITTW<H:UE52^aAoSY=kBFP2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 15
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

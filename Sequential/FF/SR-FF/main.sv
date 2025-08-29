@@ -1,0 +1,42 @@
+module main(input clk reset_n s,r, output reg Q,Qbar);
+
+    always_ff@(posedge clk or negedge reset_n)
+        begin
+        if(reset_n == 0)
+            begin
+                Q <= 0;
+                Qbar <= 0;
+            end
+        else
+            begin
+                case({s,r})
+                    2'b00 :  ;   // it will hold old value , we are not assigning when sr=00 ; or we can write like this "begin Q <= Q; Qbar<=Qbar; end"
+                    2'b01 :  begin Q <= 0; Qbar<=1; end
+                    2'b10 :  begin Q <= 1; Qbar<=0; end
+                    2'b11 :  begin Q <= 0; Qbar<=0; end
+                endcase               
+        end
+    end
+endmodule
+
+
+module tb();
+    reg s,r,reset_n, clk;
+    wire Q, Qbar;
+
+    main uut(clk,reset_n, s,r,Q,Qbar);
+
+    always#2 clk=~clk;
+
+    initial begin
+        reset_n = 0;
+        $monitor("time=%1t, s=%b, r=%b, Q=%b, Qbar=%b, reset_n=%b",$time,s,r,Q,Qbar,reset_n);
+        clk=0;
+        #2 reset_n = 1;
+        #2{s,r}=2'b00;
+        #2{s,r}=2'b01;
+        #2{s,r}=2'b10;
+        #2{s,r}=2'b11;
+        #20 $stop;
+    end
+endmodule
